@@ -1,0 +1,182 @@
+[
+  {
+    "experiment": "small",
+    "config": {
+      "name": "small",
+      "seq_len": 64,
+      "batch_size": 32,
+      "d_model": 64,
+      "num_layers": 1,
+      "num_heads": 2,
+      "d_ff": 256,
+      "dropout": 0.1,
+      "num_epochs": 2,
+      "lr": 0.0001
+    },
+    "epoch": [
+      1,
+      2
+    ],
+    "train_loss": [
+      0.6900177283498976,
+      0.671937426577674
+    ],
+    "train_acc": [
+      0.5326222222222222,
+      0.5952
+    ],
+    "val_acc": [
+      0.5712,
+      0.6116
+    ],
+    "epoch_time": [
+      31.503901481628418,
+      30.323660373687744
+    ],
+    "total_time": 61.82756185531616
+  },
+  {
+    "experiment": "base",
+    "config": {
+      "name": "base",
+      "seq_len": 128,
+      "batch_size": 32,
+      "d_model": 128,
+      "num_layers": 2,
+      "num_heads": 4,
+      "d_ff": 512,
+      "dropout": 0.1,
+      "num_epochs": 2,
+      "lr": 0.0001
+    },
+    "epoch": [
+      1,
+      2
+    ],
+    "train_loss": [
+      0.6640735042360094,
+      0.5752772004021539
+    ],
+    "train_acc": [
+      0.5928888888888889,
+      0.6945333333333333
+    ],
+    "val_acc": [
+      0.6568,
+      0.712
+    ],
+    "epoch_time": [
+      123.19646310806274,
+      123.8174455165863
+    ],
+    "total_time": 247.01493072509766
+  },
+  {
+    "experiment": "wider",
+    "config": {
+      "name": "wider",
+      "seq_len": 128,
+      "batch_size": 32,
+      "d_model": 256,
+      "num_layers": 2,
+      "num_heads": 8,
+      "d_ff": 1024,
+      "dropout": 0.1,
+      "num_epochs": 2,
+      "lr": 0.0001
+    },
+    "epoch": [
+      1,
+      2
+    ],
+    "train_loss": [
+      0.6375180366834005,
+      0.5212408973905776
+    ],
+    "train_acc": [
+      0.6198222222222223,
+      0.7390222222222222
+    ],
+    "val_acc": [
+      0.6812,
+      0.7436
+    ],
+    "epoch_time": [
+      296.4896697998047,
+      256.24310088157654
+    ],
+    "total_time": 552.7327706813812
+  },
+  {
+    "experiment": "deep",
+    "config": {
+      "name": "deep",
+      "seq_len": 128,
+      "batch_size": 32,
+      "d_model": 128,
+      "num_layers": 4,
+      "num_heads": 4,
+      "d_ff": 512,
+      "dropout": 0.1,
+      "num_epochs": 2,
+      "lr": 0.0001
+    },
+    "epoch": [
+      1,
+      2
+    ],
+    "train_loss": [
+      0.6559990744484795,
+      0.5704286436027951
+    ],
+    "train_acc": [
+      0.6061777777777778,
+      0.7013777777777778
+    ],
+    "val_acc": [
+      0.6652,
+      0.7068
+    ],
+    "epoch_time": [
+      231.2502954006195,
+      212.43530583381653
+    ],
+    "total_time": 443.68560123443604
+  },
+  {
+    "experiment": "longer_seq",
+    "config": {
+      "name": "longer_seq",
+      "seq_len": 256,
+      "batch_size": 16,
+      "d_model": 128,
+      "num_layers": 2,
+      "num_heads": 4,
+      "d_ff": 512,
+      "dropout": 0.1,
+      "num_epochs": 2,
+      "lr": 0.0001
+    },
+    "epoch": [
+      1,
+      2
+    ],
+    "train_loss": [
+      0.6350809321827359,
+      0.4942464021099938
+    ],
+    "train_acc": [
+      0.6320888888888889,
+      0.7596888888888889
+    ],
+    "val_acc": [
+      0.7072,
+      0.7588
+    ],
+    "epoch_time": [
+      246.7297065258026,
+      260.79011154174805
+    ],
+    "total_time": 507.51981806755066
+  }
+]

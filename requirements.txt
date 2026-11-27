@@ -1,0 +1,10 @@
+# Versions used for the runs reported in the README (Python 3.11, CPU)
+torch==2.0.1
+numpy<2
+datasets==2.15.0
+tokenizers==0.19.1
+tqdm
+pandas
+matplotlib
+scikit-learn
+pytest

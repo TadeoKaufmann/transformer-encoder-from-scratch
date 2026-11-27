@@ -1,0 +1,2 @@
+model,val_acc,test_acc,fit_time_s
+tfidf_logreg,0.9124,0.90424,10.590706586837769
